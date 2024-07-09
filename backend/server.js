@@ -32,7 +32,8 @@ app.get('/', (req, res) => {
 });
 
 // Routes
-app.use("/api/menu",menuRoutes)
+app.use("/api/menu",menuRoutes) // menu routes
+app.use('/api/orders', orderRoutes); // order routes
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
