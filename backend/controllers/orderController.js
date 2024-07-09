@@ -1,7 +1,7 @@
 // controllers/orderController.js
 import asyncHandler from 'express-async-handler';
-import { Order } from '../models/orderModel.js';
-import { OrderItem } from '../models/orderItemModel.js';
+import { Order } from '../models/Order.js';
+import { OrderItem } from '../models/OrderItem.js';
 
 // ------------------------------------------- ORDER MODEL CRUD ------------------------------------------------------
 

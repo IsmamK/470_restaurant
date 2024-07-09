@@ -6,6 +6,8 @@ import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 import { connectDB } from './config/db.js';
 import menuRoutes from "./routes/menuRoutes.js"
+import orderRoutes from "./routes/orderRoutes.js"
+
 
 dotenv.config();
 connectDB()
